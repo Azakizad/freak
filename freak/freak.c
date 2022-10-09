@@ -23,7 +23,7 @@ typedef struct freak
 
 int	key(int key)
 {
-	if (key >= 0 && key <= 150000)
+	if (key >= 0)
 		system("pmset displaysleepnow");
 		exit(1);
 	return 0;
